@@ -50,7 +50,7 @@ class CrysGen:
         Generate a crystal structure using the specified templates, number of atoms,
         lattice constant,.
         """
-        f11 = read('/home/charles/phd_project/task1/All_Structure/LiInF.cif')
+        f11 = read('LMX_prototypes/LiInF.cif')
         if self.template == 'F11':
             if self.mixing_halogens and self.mixing_metals:
                 M1 = self.metals[0]
@@ -217,7 +217,7 @@ class CrysGen:
         Generate a crystal structure using the specified templates, number of atoms,
         lattice constant,.
         """
-        br12 = read('/home/charles/phd_project/task1/All_Structure/LiErBr.cif')
+        br12 = read('LMX_prototypes/LiErBr.cif')
         if self.template == 'Br12':
             if self.mixing_halogens and self.mixing_metals:
                 M1 = self.metals[0]
@@ -288,7 +288,7 @@ class CrysGen:
         Generate a crystal structure using the specified templates, number of atoms,
         lattice constant,.
         """
-        f15 = read('/home/charles/phd_project/task1/All_Structure/LiGaF.cif')
+        f15 = read('LMX_prototypes/LiGaF.cif')
         if self.template == 'F15':
             if self.mixing_halogens and self.mixing_metals:
                 M1 = self.metals[0]
@@ -369,7 +369,7 @@ class CrysGen:
         Generate a crystal structure using the specified templates, number of atoms,
         lattice constant,.
         """
-        cl62 = read('/home/charles/phd_project/task1/All_Structure/LiYbCl.cif')
+        cl62 = read('LMX_prototypes/LiYbCl.cif')
         if self.template == 'Cl62':
             if self.mixing_halogens and self.mixing_metals:
                 M1 = self.metals[0]
@@ -442,7 +442,7 @@ class CrysGen:
         Generate a crystal structure using the specified templates, number of atoms,
         lattice constant,.
         """
-        cl164 = read('/home/charles/phd_project/task1/All_Structure/LiErCl.cif')
+        cl164 = read('LMX_prototypes/LiErCl.cif')
         if self.template == 'Cl164':
             if self.mixing_halogens and self.mixing_metals:
                 M1 = self.metals[0]
@@ -520,7 +520,7 @@ class CrysGen:
         Generate a crystal structure using the specified templates, number of atoms,
         lattice constant,.
         """
-        f165 = read('/home/charles/phd_project/task1/All_Structure/LiScF.cif')
+        f165 = read('LMX_prototypes/LiScF.cif')
         if self.template == 'F165':
             if self.mixing_halogens and self.mixing_metals:
                 M1 = self.metals[0]
