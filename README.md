@@ -18,7 +18,7 @@
 - [Script Descriptions](#script-descriptions)
 - [Installation & Dependencies](#installation--dependencies)
 - [Usage](#usage)
-- [CrysGen Class API Reference](#crysgen-class-api-reference)
+- [CrysGen Class](#crysgen-class-api-reference)
 - [Template Reference Table](#template-reference-table)
 - [Notes & Known Issues](#notes--known-issues)
 - [Author](#author)
@@ -46,7 +46,7 @@ The toolkit supports **six distinct crystal symmetry prototypes** (space groups 
 Lithium halide solid electrolytes of the general formula **Li-M-X** (where M = trivalent metal, X = halogen) are promising candidates for all-solid-state lithium-ion batteries due to their high ionic conductivity and electrochemical stability. Systematic exploration of composition and defect spaces is critical to identifying optimal materials.
 ---
 
-## Structure
+## Repository Structure
 
 LMX_data/
 ├── GenRandom.py           # Single-generation mixed metal+halogen CE structures
