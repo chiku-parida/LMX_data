@@ -50,17 +50,17 @@ Lithium halide solid electrolytes of the general formula **Li-M-X** (where M = t
 
 LMX_data/
 
-├── GenRandom.py           # Single-generation mixed metal+halogen CE structures
+|--- GenRandom.py           # Single-generation mixed metal+halogen CE structures
 
-├── GenRandomAll.py        # Multi-generation mixed metal+halogen CE structures
+|--- GenRandomAll.py        # Multi-generation mixed metal+halogen CE structures
 
-├── GenRandomMetal.py      # Single-generation metal-only CE structures
+|--- GenRandomMetal.py      # Single-generation metal-only CE structures
 
-├── GenRandomDefect.py     # Single-generation defect (vacancy/anti-site) CE structures
+|--- GenRandomDefect.py     # Single-generation defect (vacancy/anti-site) CE structures
 
-├── GenRandomDefectAll.py  # Multi-generation defect CE structures (all templates)
+|--- GenRandomDefectAll.py  # Multi-generation defect CE structures (all templates)
 
-└── README.md              # This file
+|--- README.md              # This file
 
 > **Note:** CIF template files are expected at a local path (e.g., `LMX_prototypes`). You must update these paths to match your local setup before running any script.
 
